@@ -1,0 +1,4 @@
+export const LOAD_VACANCIES = 'LOAD_VACANCIES';
+export const GET_VACANCY = 'GET_VACANCY';
+export const NEW_VACANCY = 'NEW_VACANCY';
+export const DELETE_VACANCY = 'DELETE_VACANCY';

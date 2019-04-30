@@ -12,3 +12,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+.content {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.nav-tabs {
+  background-color: #f2f2f2;
+}
+
+.ads {
+  background: #e3e3e3;
+  margin: 0 auto;
+  padding: 2em 2em 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.modal__new {
+  position: fixed;
+  border-radius: 50%;
+  bottom: 2.7em;
+  left: 2.7em;
+  height: 48px;
+  width: 48px;
+}
+
+.modal__new:before {
+  content: '+';
+  font-size: 2em;
+  color: #aaa;
+  line-height: .8em;
+}
+
+.modal__new:hover, .modal__new:focus {
+  background-color: #ddd;
+  border: none;
+}
+.form__group {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form__group > * {
+  padding: 2em;
+  margin-bottom: .3em;
+}
+.ad__title {
+  display: inline;
+  font-size: 1em;
+  padding-right: 1em;
+}
+.ad__price {
+  display: flex;
+  justify-content: end;
+  padding: .5em 1em;
+  color: #337ab7;
+  border: 1px solid #337ab7;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.form__errors {
+  color: #7a202e;
+}
+
+.last-item {
+  margin-left: 140px;
+}
+
+#descri {
+  display: block;
+  height: 38px;
+  width: 700px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.logout {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logout {
+  position: relative;
+  right: 0px;
+  height: 25px;
+}
